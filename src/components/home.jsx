@@ -26,10 +26,10 @@ const Home = () => {
                         <Cursor />
                     </h1>
                     <p> Eager to bring innovative ideas and user-centered designs to life | Committed to delivering high-quality, responsive solutions that make a meaningful impact.</p>
-                    <button className='mt-5 btn btn-primary-custom'>Download Resume</button>
-                    {/* <a href="/Erin-Resume.pdf" download="Erin-Resume.pdf" className="mt-4 btn btn-primary-custom">
+{/*                     <button className='mt-5 btn btn-primary-custom'>Download Resume</button> */}
+                    <a href="/Erin-Resume.pdf" download="Erin-Resume.pdf" className="mt-5 btn btn-primary-custom">
                         Download Resume
-                    </a> */}
+                    </a>
                 </div>
                 <div className='order-1 order-lg-2'><img src={Profile} alt="AI Profile Cartoon" className='img-custom' /></div>
             </div>
