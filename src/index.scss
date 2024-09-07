@@ -1,0 +1,119 @@
+$PRIMARY: #22223B;
+$PRIMARYLIGHT: #4A4E69;
+$SECONDARY: #9A8C98;
+$SECONDARYLIGHT: #C9ADA7;
+$ACCENT: #F2E9E4;
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+.App {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+    .nav-link, .active-link {
+        position: relative;
+        color: $PRIMARY;
+        text-decoration: none;
+        padding: 0 1.3rem !important;
+    }
+
+    .active-link {
+        font-weight: 700 !important;
+    }
+
+    .nav-link::after, .active-link:after {
+        content: '';
+        position: absolute;
+        width: 0;
+        height: 3px;
+        bottom: -8px;
+        left: 50%;
+        background-color: $PRIMARY;
+        transition: width 0.3s ease, left 0.3s ease;
+    }
+
+    .nav-link:hover::after, .active-link:after {
+        width: 70%;
+        left: 15%;
+    }
+
+    main {
+        flex: 1;
+    }
+
+    @media (max-width: 991.5px) {
+        .nav-link, .active-link {
+            margin-bottom: 0.5rem;
+            padding: 0 !important;
+        }
+
+        .nav-link:hover::after, .active-link:after {
+            width: 0;
+        }
+    }
+}
+
+//font size
+.nav-link, .active-link {
+    font-size: 1.5rem;
+}
+
+p,
+.btn {
+    line-height: 33px;
+    font-size: 1.30rem;
+    margin-bottom: 0;
+}
+
+// color
+.color-primary-blue {
+    color: $PRIMARY;
+}
+
+.color-accent-white {
+    color: $ACCENT;
+}
+
+.gradient-text {
+    background: linear-gradient(90deg, #4A2D2C, #A36361, #4A4E69, #A36361, #3D2524);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+// background color
+.bg-accent-white {
+    background-color: $ACCENT;
+}
+
+.bg-primary-blue {
+    background-color: $PRIMARY;
+}
+
+// buttons
+.btn-primary-custom {
+    background-color: $ACCENT;
+    color: $PRIMARY;
+
+    &:hover {
+        background-color: rgb($ACCENT, 0.80);
+    }
+}
+
+// custom width & margins
+.img-custom {
+    width: 450px;
+}
+
+.custom-margin-top {
+    margin-top: 6rem;
+}
+
+.custom-margin-top-bottom {
+    margin: 6rem 0;
+}

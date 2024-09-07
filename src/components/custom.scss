@@ -1,0 +1,74 @@
+$PRIMARY: #22223B;
+$PRIMARYLIGHT: #4A4E69;
+$SECONDARY: #9A8C98;
+$SECONDARYLIGHT: #C9ADA7;
+$ACCENT: #F2E9E4;
+
+.home-custom-style {
+    p {
+        width: 95%;
+    }
+
+    .icon-circle {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+    }
+
+    .icon-connect {
+        margin: 0 0.5rem;
+    }
+}
+
+@media (max-width: 991.5px) {
+    .home-custom-style {
+        p {
+            width: 100%;
+        }
+
+        .img-custom {
+            width: 50%;
+        }
+    }
+}
+
+.about-custom-style {
+    .border-column {
+        border: 3px solid $PRIMARY;
+        box-shadow: 4px 4px 4px 0 rgb($PRIMARY, 0.25);
+        transition: transform 0.3s ease;
+
+        &:hover {
+            box-shadow: 8px 8px 10px 0 rgb($PRIMARY, 0.25);
+            transform: translateY(-3px);
+        }
+    }
+
+    .core-skills-box {
+        width: 130px;
+        height: 130px;
+        box-shadow: 4px 4px 4px 0 rgb($PRIMARY, 0.25);
+        transition: transform 0.3s ease;
+
+        &:hover {
+            box-shadow: 3px 3px 10px 0 rgb($ACCENT, 0.25);
+            transform: translateY(-1px);
+        }
+    }
+}
+
+.projects-custom-style {
+    .card-work {
+        width: 400px;
+        height: auto;
+        transition: transform 0.3s ease;
+
+        &:hover {
+            transform: translateY(-10px);
+        }
+    }
+
+    .proj-img {
+        width: 100%;
+    }
+}
