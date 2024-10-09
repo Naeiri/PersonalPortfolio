@@ -4,12 +4,12 @@ import { FaGithub } from "react-icons/fa";
 import { HiLocationMarker } from "react-icons/hi";
 import { IoMail } from "react-icons/io5";
 import { Cursor, useTypewriter } from 'react-simple-typewriter';
-import Profile from '../assets/images/ai-image.png';
+import Profile from '../assets/images/profile.png';
 import './custom.scss';
 
 const Home = () => {
     const [typeEffect] = useTypewriter({
-        words: ['Frontend Web Developer', 'UI/UX Designer', 'IT Graduating Student'],
+        words: ['Frontend Web Developer', 'UI/UX Designer', 'IT Graduate Student'],
         loop: {},
         typeSpeed: 100,
         deleteSpeed: 40,
