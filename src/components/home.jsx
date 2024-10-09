@@ -9,7 +9,7 @@ import './custom.scss';
 
 const Home = () => {
     const [typeEffect] = useTypewriter({
-        words: ['Frontend Web Developer', 'UI/UX Designer', 'IT Graduate Student'],
+        words: ['Frontend Web Developer', 'UI/UX Designer', 'Fresh IT Graduate'],
         loop: {},
         typeSpeed: 100,
         deleteSpeed: 40,
