@@ -27,7 +27,7 @@ const Home = () => {
                     </h1>
                     <p> Eager to bring innovative ideas and user-centered designs to life | Committed to delivering high-quality, responsive solutions that make a meaningful impact.</p>
 {/*                     <button className='mt-5 btn btn-primary-custom'>Download Resume</button> */}
-                    <a href="/Erin-Resume.pdf" download="Erin-Resume.pdf" className="mt-5 btn btn-primary-custom">
+                    <a href="/Erin-Resume-October.pdf" download="Erin-Resume-October.pdf" className="mt-5 btn btn-primary-custom">
                         Download Resume
                     </a>
                 </div>
