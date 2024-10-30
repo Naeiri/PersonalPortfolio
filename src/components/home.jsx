@@ -43,7 +43,7 @@ const Home = () => {
                     <a href="https://www.linkedin.com/in/erin-julieanna" target="_blank" rel="noopener noreferrer" className='d-flex align-items-center justify-content-center icon-circle bg-accent-white'>
                         <BsLinkedin className='icon-connect color-primary-blue' size={20} />
                     </a>
-                    <a href="mailto:yvanahbaconguis@gmail.com" className='d-flex align-items-center justify-content-center icon-circle bg-accent-white'>
+                    <a href="mailto:erinjulieannabutlig@gmail.com" className='d-flex align-items-center justify-content-center icon-circle bg-accent-white'>
                         <IoMail className='icon-connect color-primary-blue' size={25} />
                     </a>
                     <a href="https://maps.app.goo.gl/ARiBZ44sAvy5R3XU6" target="_blank" rel="noopener noreferrer" className='d-flex align-items-center justify-content-center icon-circle bg-accent-white'>
